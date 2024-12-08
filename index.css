@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/*  create variables */
+:root {
+  --primary-color: #f26a2e;
+  --secondary-color: #fff2eb;
+  --text-color: #333;
+  --header-text: Montserrat, sans-serif;
+  --body-text: Nunito, sans-serif;
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-family: var(--body-text);
+  margin: 0;
+  padding: 0;
+}
+
+.headingText {
+  font-family: var(--header-text);
+  color: var(--primary-color);
+}

@@ -1,7 +1,5 @@
 # Bootstrap & Grid System
 
----
-
 ## Project One Overview
 
 **Create a responsive webpage for a fictional restaurant using Bootstrap and its grid system.**
@@ -72,6 +70,8 @@
 #### Footer
 
 - Design a footer with copyright information and social media icons.
+
+---
 
 ## Instructions
 
