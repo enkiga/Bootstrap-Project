@@ -1,0 +1,81 @@
+/*  create variables */
+:root {
+  --primary-color: #f26a2e;
+  --secondary-color: #fff2eb;
+  --text-color: #333;
+  --background-film: rgba(242, 106, 46, 0.5);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: var(--secondary-color);
+}
+
+.logo {
+  color: var(--text-color);
+
+  & span {
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+}
+
+.hero {
+  /* Set background as image */
+  background-image: url("Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70dvh;
+}
+
+.hero-container {
+  /* give it an orange film */
+  background-color: var(--background-film);
+  height: 100%;
+  width: 100%;
+}
+
+.hero-text {
+  color: var(--secondary-color);
+
+  & span {
+    color: var(--text-color);
+  }
+}
+
+.cta-button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight:400;
+  text-decoration: none;
+}
+
+.cta-button-outline {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight:400;
+  text-decoration: none;
+}
+
+.cta-button:hover,
+.cta-button-outline:hover {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  scale: 1.1;
+  color: var(--text-color);
+  transition: ease-in-out 0.3s;
+
+}
