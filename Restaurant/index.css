@@ -40,7 +40,6 @@ body {
 }
 
 .hero-container {
-  /* give it an orange film */
   background-color: var(--background-film);
   height: 100%;
   width: 100%;
@@ -110,4 +109,15 @@ body {
   font-size: 2.7rem;
   color: var(--primary-color);
   font-family: var(--primary-font) ;
+}
+
+.contact {
+  background-image: url('ContactUs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-form-text{
+  color: var(--secondary-color);
 }
